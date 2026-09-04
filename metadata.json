@@ -1,0 +1,6 @@
+{
+  "name": "Book Club Dice Extractor",
+  "description": "Estrattore casuale modulare per domande del Book Club Dice Game con estrazione senza ripetizione, supporto multilingua (IT/EN) e vista tabellone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

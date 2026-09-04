@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-script: 'Caveat', cursive;
+
+  --color-natural-bg: #FAF7F2;
+  --color-natural-surface: #FFFFFF;
+  --color-natural-surface-subtle: #F3F0EB;
+  --color-natural-border: #E5E0D8;
+  --color-natural-text-main: #4A443F;
+  --color-natural-text-heading: #2D2A26;
+  --color-natural-text-muted: #9A8F81;
+  --color-natural-sage: #8A9A5B;
+  --color-natural-terracotta: #D97757;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF7F2;
+  color: #4A443F;
+}
+
+.font-playfair {
+  font-family: var(--font-serif);
+}
+
+.font-script {
+  font-family: var(--font-script);
+}
